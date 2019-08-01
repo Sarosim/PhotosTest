@@ -16,7 +16,7 @@
 	-webkit-align-items: flex-start;
 	align-items: flex-start;
 	width: 100%;
-	padding: 2.5em;
+	padding: 2.1em;
 	pointer-events: none;
 }
 
@@ -109,16 +109,16 @@
 	width: 45vh;
 	height: 45vh;
 	margin: 0 0 0 -22.5vh;
-	background: url(../img/device.svg) no-repeat 50% 0%;
+	background: url(../img/phone.png) no-repeat 50% 0%;
 	background-size: 100%;
 }
 
 .device__screen {
 	position: absolute;
-	top: 25.5%;
-	left: 8.5%;
-	width: 83%;
-	height: 100%;
+	top: 33%;
+	left: 11.4%;
+	width: 77%;
+	height: 86%;
 	background: url(../img/screen.jpg) no-repeat 50% 0%;
 	background-size: 100%;
 }
@@ -141,7 +141,7 @@
 	margin: 0 0 0 -1.5em;
 	-webkit-animation: pointDown 0.6s 0.6s ease-in infinite alternate forwards;
 	animation: pointDown 0.6s 0.6s ease-in infinite alternate forwards;
-	fill: #fff;
+	fill: #c53e28;
 }
 
 @-webkit-keyframes pointDown {
