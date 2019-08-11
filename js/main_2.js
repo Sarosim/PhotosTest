@@ -97,12 +97,12 @@
 		// translation values (x and y): percentages of the item´s width and height; scale value; rotation (z) value
 		// these are the values that the 6 initial images will have
 		introPositions = [
-			{tx: -.6, ty:-.3, s:1.1, r:-20},
-			{tx: .2, ty:-.7, s:1.4, r:1},
-			{tx: .5, ty:-.5, s:1.3, r:15},
+			{tx: -.6, ty:-.3, s:1.3, r:-22},
+			{tx: 0, ty:-.7, s:1.4, r:2},
+			{tx: .5, ty:-.5, s:1.25, r:15},
 			{tx: -.2, ty:-.4, s:1.4, r:-17},
-			{tx: -.15, ty:-.4, s:1.2, r:-5},
-			{tx: .7, ty:-.2, s:1.1, r:15}
+			{tx: -.15, ty:-.4, s:1.2, r:-95},
+			{tx: .7, ty:-.2, s:1.1, r:18}
 		],
 		// the phone
 		deviceEl = mainContainer.querySelector('.device'),

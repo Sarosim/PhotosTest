@@ -6,7 +6,7 @@
 	overflow: auto;
 }
 
-.header {
+/*.header {
 	position: absolute;
 	z-index: 1000;
 	display: -webkit-flex;
@@ -16,10 +16,10 @@
 	-webkit-align-items: flex-start;
 	align-items: flex-start;
 	width: 100%;
-	padding: 2.1em;
+	padding: 1em;
 	pointer-events: none;
 }
-
+*/
 /* the page (header background) that is being moved up (initial view) */
 .page--mover {
 	position: fixed;
@@ -34,7 +34,7 @@
 	position: absolute;
 	z-index: 101;
 	width: 100%;
-	margin: 10vh 0 0 0;
+	margin: 3vh 0 0 0;
 	text-align: center;
 	pointer-events: none;
 }
@@ -86,7 +86,7 @@
 }
 
 .page__title {
-	padding: 0 2em;
+	padding: 0 1em;
 }
 
 .page__title-main {
@@ -134,11 +134,11 @@
 .button--view {
 	position: fixed;
 	z-index: 1000;
-	bottom: 1.5em;
+	bottom: 2.5em;
 	left: 50%;
-	width: 3em;
-	height: 1.75em;
-	margin: 0 0 0 -1.5em;
+	width: 4em;
+	height: 2.75em;
+	margin: 0 0 0 -2em;
 	-webkit-animation: pointDown 0.6s 0.6s ease-in infinite alternate forwards;
 	animation: pointDown 0.6s 0.6s ease-in infinite alternate forwards;
 	fill: #c53e28;
@@ -146,8 +146,8 @@
 
 @-webkit-keyframes pointDown {
 	from {
-		-webkit-transform: translate3d(0,-10px,0);
-		transform: translate3d(0,-10px,0);
+		-webkit-transform: translate3d(0,-15px,0);
+		transform: translate3d(0,-15px,0);
 	}
 	to {
 		-webkit-transform: translate3d(0,0,0);
@@ -157,8 +157,8 @@
 
 @keyframes pointDown {
 	from {
-		-webkit-transform: translate3d(0,-10px,0);
-		transform: translate3d(0,-10px,0);
+		-webkit-transform: translate3d(0,-15px,0);
+		transform: translate3d(0,-15px,0);
 	}
 	to {
 		-webkit-transform: translate3d(0,0,0);
@@ -371,6 +371,10 @@
 
 .view--grid .page--static {
 	pointer-events: auto;
+}
+
+.view--grid .title-wrap {
+	height: 1%;
 }
 
 /* Media query for smaller screens */
